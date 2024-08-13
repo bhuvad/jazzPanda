@@ -87,7 +87,7 @@ second linear modelling approach can account for technical noise and
 work for studies with multiple samples. </p>
 </div>
 <div class="section level2">
-<h2 id="jazzzpanda-framework">jazzzPanda framework<a class="anchor" aria-label="anchor" href="#jazzzpanda-framework"></a>
+<h2 id="jazzpanda-framework">jazzPanda framework<a class="anchor" aria-label="anchor" href="#jazzpanda-framework"></a>
 </h2>
 <p>We assume a marker gene will show a significant linear relationship
 with the target cluster over the tissue space. This suggests that the
@@ -798,19 +798,19 @@ p-value for every pair of gene cluster and cluster vector.</p>
 <span><span class="va">perm_res</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.data.frame.html" class="external-link">as.data.frame</a></span><span class="op">(</span><span class="va">perm_p</span><span class="op">$</span><span class="va">perm.pval.adj</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">perm_res</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">##       c5         c8          c3          c2          c1          c4          c6</span></span>
-<span><span class="co">## LUM    1 0.06660007 0.006660007 1.000000000 1.000000000 0.009990010 0.002220002</span></span>
-<span><span class="co">## CD68   1 0.71262071 0.147852148 1.000000000 1.000000000 0.003330003 0.047644663</span></span>
+<span><span class="co">## LUM    1 0.04995005 0.006660007 1.000000000 1.000000000 0.004440004 0.002220002</span></span>
+<span><span class="co">## CD68   1 0.73093573 0.167832168 1.000000000 1.000000000 0.003330003 0.063013909</span></span>
 <span><span class="co">## ERBB2  1 1.00000000 1.000000000 0.006660007 0.003996004 1.000000000 1.000000000</span></span>
-<span><span class="co">## MZB1   1 0.78844233 0.779220779 1.000000000 1.000000000 0.008562866 0.002220002</span></span>
-<span><span class="co">## EPCAM  1 1.00000000 1.000000000 0.095904096 0.003996004 1.000000000 1.000000000</span></span>
-<span><span class="co">## PTPRC  1 0.63736264 0.779220779 1.000000000 1.000000000 0.003330003 0.002220002</span></span>
+<span><span class="co">## MZB1   1 0.79459003 0.742334588 1.000000000 1.000000000 0.004440004 0.002220002</span></span>
+<span><span class="co">## EPCAM  1 1.00000000 1.000000000 0.127872128 0.003996004 1.000000000 1.000000000</span></span>
+<span><span class="co">## PTPRC  1 0.64535465 0.742334588 1.000000000 1.000000000 0.003330003 0.002220002</span></span>
 <span><span class="co">##                c7</span></span>
-<span><span class="co">## LUM   0.066600067</span></span>
-<span><span class="co">## CD68  0.266400266</span></span>
+<span><span class="co">## LUM   0.037462537</span></span>
+<span><span class="co">## CD68  0.279720280</span></span>
 <span><span class="co">## ERBB2 1.000000000</span></span>
-<span><span class="co">## MZB1  0.003330003</span></span>
+<span><span class="co">## MZB1  0.002854289</span></span>
 <span><span class="co">## EPCAM 1.000000000</span></span>
-<span><span class="co">## PTPRC 0.003330003</span></span></code></pre>
+<span><span class="co">## PTPRC 0.002854289</span></span></code></pre>
 <div class="section level5">
 <h5 id="visualise-top-marker-genes-detected-by-correlation-approach">Visualise top marker genes detected by correlation approach<a class="anchor" aria-label="anchor" href="#visualise-top-marker-genes-detected-by-correlation-approach"></a>
 </h5>
